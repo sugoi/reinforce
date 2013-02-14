@@ -1,4 +1,4 @@
 monad-optimize
 ==============
 
-Monad for Fact Acquisition, Prediction and Optimization
+Monad Transformer for Fact Acquisition, Prediction and Optimization
