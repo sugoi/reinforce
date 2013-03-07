@@ -7,15 +7,19 @@ version:             0.1.0.0
 
 synopsis:            Feature Gathering, Prediction and Optimization for Reinforcement Learning
 
-description: This package provides monad transformer for
-             reinforcement learning. It can generate new features and
-             retrieve the evaluation results in a context. Then the
-             gathered feature is used to generate future features,
-             either for gathering new information or for generating
-             best values.
+description: This package provides monad transformer that equips your
+             monad with the ability of automated optimization. You
+             present multiple set of choices or random variables to
+             the monad, and the monad will make choices in your place.
+             Then you give the monad the score of the choices made.
+             In future runs, the monad will try to make better choices
+             either to increase the score or to explore the new
+             possibilities, according to reinforcement learning
+             mechanisms.
+
              
 
-homepage:            https://github.com/sugoi/monad-optimize
+homepage:            https://github.com/sugoi/reinforce
 
 license:             BSD3
 
