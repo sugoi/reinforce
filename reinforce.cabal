@@ -3,15 +3,20 @@
 
 name:                monad-reinforce
 
-version:             0.1.0.0
+version:             2
 
 synopsis:            Feature Gathering, Prediction and Optimization for Reinforcement Learning
 
-description: This package provides monad transformer that equips your
-             monad with the ability of automated optimization. You
-             present multiple set of choices or random variables to
-             the monad, and the monad will make choices in your place.
-             Then you give the monad the score of the choices made.
+description: <<https://raw.github.com/sugoi/reinforce/master/reinforce.jpg>>
+             . 
+             This package provides monad transformer that equips your
+             monad with the ability of automated optimization. 
+             .
+             You present multiple set of choices or random variables
+             to the monad, and the monad will make choices in your
+             place.  Then you give the monad the score of the choices
+             made. 
+             .             
              In future runs, the monad will try to make better choices
              either to increase the score or to explore the new
              possibilities, according to reinforcement learning
@@ -38,7 +43,10 @@ build-type:          Simple
 cabal-version:       >=1.8
 
 library
-  -- exposed-modules:     
+  exposed-modules:   
+                     Control.Monad.Rein
+                     Control.Monad.Rein.Class
+                     Control.Monad.Trans.Rein
   -- other-modules:       
   build-depends:       base >=4.6 && <5
 
