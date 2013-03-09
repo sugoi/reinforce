@@ -49,7 +49,9 @@ library
                      Control.Monad.Trans.Rein
   -- other-modules:       
   build-depends:       base >=4.6 && <5
-
+                     , binary >= 0.7.0.1
+                     , bytestring >= 0.10.2.0
+                     , mtl >= 2.1.2
 
 
 Source-Repository head
